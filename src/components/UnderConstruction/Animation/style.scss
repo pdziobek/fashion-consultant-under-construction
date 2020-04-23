@@ -1,7 +1,9 @@
+
 .box {
   width: 150px;
   height: 150px;
   margin: 20px auto;
+
 }
 
 .cube,
@@ -30,6 +32,7 @@
 .part {
   width: 18px;
   height: 18px;
+  box-sizing: content-box;
   border: 1px solid #fff;
   background-color: #9C7F3270;
   position: absolute;
