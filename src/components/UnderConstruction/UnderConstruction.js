@@ -12,7 +12,7 @@ export default function UnderConstruction() {
                     <img src={logo} className="App-logo" id="logo-animation" alt="logo" />
                     </div>
                     <UnderConstructionAnimation/>
-                    <p className='construction-txt'>Strona w budowie</p>
+                    <p className='construction-txt' id='construction-txt-animation'>Strona w budowie</p>
 
 
                 </header>
