@@ -1,0 +1,64 @@
+.construction-container {
+  text-align: center;
+
+  .logo-container {
+    min-height: 329px;
+
+    .App-logo {
+      margin-top: 6em;
+      opacity: 0.8;
+    }
+
+    #logo-animation {
+      margin-top: 25px;
+      font-size: 21px;
+      text-align: center;
+      animation: fadein 5s;
+      -moz-animation: fadein 5s; /* Firefox */
+      -webkit-animation: fadein 5s; /* Safari and Chrome */
+      -o-animation: fadein 5s; /* Opera */
+    }
+
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 0.8;
+      }
+    }
+    @-moz-keyframes fadein { /* Firefox */
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 0.8;
+      }
+    }
+    @-webkit-keyframes fadein { /* Safari and Chrome */
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 0.8;
+      }
+    }
+    @-o-keyframes fadein { /* Opera */
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .construction-txt {
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    opacity: 0.8;
+    color: #8b6f2e;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+}
