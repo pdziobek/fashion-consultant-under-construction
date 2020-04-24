@@ -1,0 +1,60 @@
+.construction-container {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+
+    .App-logo {
+      align-items: center;
+      max-width: 100vw;
+      margin-top: 6em;
+      opacity: 0;
+    }
+
+    #logo-animation {
+      margin-top: 25px;
+      font-size: 21px;
+      text-align: center;
+      animation: fadein 3s 2s forwards;
+    }
+
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .construction-txt {
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    opacity: 0;
+    color: #8b6f2e;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  #construction-txt-animation {
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 2s 5s forwards;
+  }
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 0.8;
+    }
+  }
+
+}

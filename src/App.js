@@ -1,5 +1,5 @@
 import React from 'react';
-import UnderConstruction from "./components/UnderConstruction/UnderConstruction";
+import UnderConstruction from "./components/Home/01_UnderConstruction/UnderConstruction";
 
 function App() {
     return (
